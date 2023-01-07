@@ -1,4 +1,4 @@
-*{ margin: 0;
+*{
     font-family: 'work sans';
 }
 
@@ -11,7 +11,6 @@
     left: 1600px;
     top: 808px;
     text-align: right;
-    background :url(flat-lay-abstract-composition-with-innovation-elements.jpg)
 }
 .banner-title{
     position: absolute;
@@ -64,58 +63,104 @@ height: 64px;
 left: 1210px;
 top: 578px;
 color: #FFFFFF;
-background: #F15B22;
+background: #e0784b;
 border-radius: 5px;
 }
+
+
+
+
 /* about section styles */
-.section-title{
-    position: absolute;
-width: 288px;
-height: 94px;
-left: 862px;
-top: 1178px;
-
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-
-/* Dark 01 */
-
-color: #151414;
+.about{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.plan{
+  margin-top: 150px;
 
 }
-.section-sub-title{
-    position: absolute;
-width: 416px;
-height: 104px;
-left: 862px;
-top: 1296px;
-
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-/* or 162% */
-
-
-/* Dark 02 */
-
-color: #444343;
+.plan1{
+    font-size: 40px;
 }
-.section-description{
-position: absolute;
-width: 349px;
-height: 162px;
-left: 819px;
-top: 1416px;
+.plan2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
-.img-tag{
+
+/* my plan  */
+
+.myplan{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.skills-container{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill{
+    text-align: center;
+}
+.abc{
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.abcd{
     position: absolute;
-width: 569px;
-height: 723.3px;
-left: 206px;
-top: 939px;
+width: 1000px;
+height: 262px;
+left: 205px;
+top: 2211.3px;
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+border-radius: 8px;
+
+padding-left: 50px;
+}
+.txt1{
+    color: white;
+    font-size: 30px;
+}
+.bton{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+}
+.foter{
+    color: white;
+    background-color: #151414;
+    margin-top: 50px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.bton2{
+    font-weight: bold;
+    color: #e0784b;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+}
+.sub{
+    font-weight: bold;
+    color: #e0784b;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+.extra{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+
+}
+.ab{
+    width: 600px;
+    border-radius: 10px;
+    
 }
