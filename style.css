@@ -67,3 +67,55 @@ color: #FFFFFF;
 background: #F15B22;
 border-radius: 5px;
 }
+/* about section styles */
+.section-title{
+    position: absolute;
+width: 288px;
+height: 94px;
+left: 862px;
+top: 1178px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+/* Dark 01 */
+
+color: #151414;
+
+}
+.section-sub-title{
+    position: absolute;
+width: 416px;
+height: 104px;
+left: 862px;
+top: 1296px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 02 */
+
+color: #444343;
+}
+.section-description{
+position: absolute;
+width: 349px;
+height: 162px;
+left: 819px;
+top: 1416px;
+}
+.img-tag{
+    position: absolute;
+width: 569px;
+height: 723.3px;
+left: 206px;
+top: 939px;
+}
